@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "prettier.semi": false,
+    "prettier.useTabs": true,
+    "prettier.typescriptEnable": [
+        "typescript"
+    ],
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": false,
+    "prettier.jsonEnable": [
+        "json"
+    ],
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "build" : true
+    }
+}
