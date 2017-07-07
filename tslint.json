@@ -4,7 +4,9 @@
 	"jsRules": {},
 	"rules": {
 		"semicolon": [false],
-		"no-console": [false]
+		"no-console": [false],
+		"indent": ["error", "tabs"],
+		"arrow-parens": false
 	},
 	"rulesDirectory": []
 }

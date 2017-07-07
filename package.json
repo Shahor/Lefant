@@ -6,13 +6,16 @@
 	"author": "Shahor",
 	"license": "MIT",
 	"devDependencies": {
+		"@types/chalk": "^0.4.31",
 		"@types/node": "^8.0.8",
+		"chalk": "^2.0.1",
 		"prettier": "^1.5.2",
 		"tslint": "^5.5.0",
 		"typescript": "^2.4.1"
 	},
 	"scripts": {
 		"lint": "tslint -c tslint.json 'src/**/*.ts'",
-		"build": "tsc -p . && node build/index.js"
+		"start": "tsc -p . && node build/index.js",
+		"debug": "tsc -p . && node inspect build/index.js"
 	}
 }

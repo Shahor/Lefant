@@ -10,6 +10,7 @@
     "prettier.jsonEnable": [
         "json"
     ],
+	"prettier.trailingComma": "all",
     "editor.formatOnSave": true,
     "files.exclude": {
         "**/.git": true,

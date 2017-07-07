@@ -1,1 +1,3 @@
-import { writeSync } from "fs"
+import { ask } from "./modules/staff"
+
+ask()
