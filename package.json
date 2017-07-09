@@ -17,5 +17,8 @@
 		"lint": "tslint -c tslint.json 'src/**/*.ts'",
 		"start": "tsc -p . && node build/index.js",
 		"debug": "tsc -p . && node inspect build/index.js"
+	},
+	"dependencies": {
+		"prompt": "^1.0.0"
 	}
 }
