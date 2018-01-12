@@ -1,5 +1,7 @@
 # What is this for
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Shahor/Lefant.svg)](https://greenkeeper.io/)
+
 I'm a lazy boy and I want to learn how to read a music staff.
 
 This is just a small tool that I can run whenever that asks me to read a note and type it in.
